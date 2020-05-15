@@ -1,0 +1,15 @@
+package gmo.library.Entities;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.*;
+import java.io.Serializable;
+
+@MappedSuperclass
+@Getter @Setter
+public abstract class AbstractEntity<ID extends Serializable> implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private ID id;
+}
