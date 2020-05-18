@@ -1,9 +1,9 @@
 package gmo.library.Repositories;
 
-import gmo.library.Entities.Offence;
+import gmo.library.Entities.FileCabinet;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface OffenceRepository extends JpaRepository<Offence, Long> {
+public interface IFileCabinetRepository extends JpaRepository<FileCabinet, Long> {
 }

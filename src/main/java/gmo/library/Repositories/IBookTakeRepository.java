@@ -1,9 +1,9 @@
 package gmo.library.Repositories;
 
-import gmo.library.Entities.Reader;
+import gmo.library.Entities.BookTake;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ReaderRepository extends JpaRepository<Reader, Long> {
+public interface IBookTakeRepository extends JpaRepository<BookTake, Long> {
 }

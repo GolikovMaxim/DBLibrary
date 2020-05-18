@@ -1,9 +1,9 @@
 package gmo.library.Repositories;
 
-import gmo.library.Entities.Faculty;
+import gmo.library.Entities.Issue;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface FacultyRepository extends JpaRepository<Faculty, Long> {
+public interface IIssueRepository extends JpaRepository<Issue, Long> {
 }

@@ -13,13 +13,13 @@ import java.util.HashMap;
 @Getter
 public abstract class AbstractMapper<E extends AbstractEntity<ID>, DTO extends AbstractDTO<ID>, ID extends Serializable>
         implements IMapper<E, DTO, ID> {
-    protected static final HashMap<Class, AbstractMapper> mappers = new HashMap<>();
+    protected static HashMap<Class, AbstractMapper> mappers = new HashMap<>();
 
-    private final ModelMapper mapper;
-    private final TypeMap<E, DTO> entityToDTOMap;
-    private final TypeMap<DTO, E> DTOToEntityMap;
-    private final Class<E> entityClass;
-    private final Class<DTO> DTOClass;
+    private ModelMapper mapper;
+    private TypeMap<E, DTO> entityToDTOMap;
+    private TypeMap<DTO, E> DTOToEntityMap;
+    private Class<E> entityClass;
+    private Class<DTO> DTOClass;
 
     protected AbstractMapper(ModelMapper mapper, Class<E> entityClass, Class<DTO> DTOClass) {
         this.mapper = mapper;
