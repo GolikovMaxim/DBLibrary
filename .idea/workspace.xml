@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d085db9-7087-4a40-ada3-de30e3ab8345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/ReaderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/ReaderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/PointOfIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/PointOfIssue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/StudyGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/StudyGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Services/IDegreeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Services/IService.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -306,7 +294,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589891340215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589891441704" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Y4EБA/БД/inserts.sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -365,7 +353,7 @@
       <workItem from="1589616861264" duration="8436000" />
       <workItem from="1589638239445" duration="172000" />
       <workItem from="1589789883446" duration="8548000" />
-      <workItem from="1589874843087" duration="11273000" />
+      <workItem from="1589874843087" duration="11381000" />
     </task>
     <task id="LOCAL-00001" summary="Some bug fixes">
       <created>1589789977614</created>
@@ -374,14 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589789977614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Resolved some problems with REST API, basic functionality works correctly">
+      <created>1589891412667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589891412667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63409000" />
+    <option name="totallyTimeSpent" value="63517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17544988" />
@@ -394,7 +389,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34185734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34185734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +453,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some bug fixes" />
+    <MESSAGE value="Resolved some problems with REST API, basic functionality works correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved some problems with REST API, basic functionality works correctly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/student">
