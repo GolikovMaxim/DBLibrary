@@ -48,7 +48,7 @@ public class AppConfiguration extends RepositoryRestConfigurerAdapter {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        dataSource.setPassword("qpuzyn9z");
+        dataSource.setPassword("12345678");
         return dataSource;
     }
 
