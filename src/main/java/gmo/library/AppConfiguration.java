@@ -1,5 +1,6 @@
 package gmo.library;
 
+import com.googlecode.flyway.core.Flyway;
 import com.mysql.cj.jdbc.MysqlDataSource;
 import gmo.library.Entities.StudyGroup;
 import org.hibernate.jpa.HibernatePersistenceProvider;
@@ -8,6 +9,7 @@ import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
 import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
@@ -25,6 +27,15 @@ public class AppConfiguration extends RepositoryRestConfigurerAdapter {
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
         config.exposeIdsFor(StudyGroup.class);
+    }
+
+    @Bean
+    public Flyway flyway(DataSource dataSource) {
+        Flyway flyway = new Flyway();
+        flyway.setDataSource(dataSource);
+        flyway.setLocations("db/migration");
+        flyway.migrate();
+        return flyway;
     }
 
     @Bean
@@ -52,7 +63,7 @@ public class AppConfiguration extends RepositoryRestConfigurerAdapter {
         return dataSource;
     }
 
-    @Bean @Autowired
+    @Bean @Autowired @DependsOn("flyway")
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         var jpaProperties = new Properties();
         jpaProperties.setProperty("hibernate.show_sql", "true");
