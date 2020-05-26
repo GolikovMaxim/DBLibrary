@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d085db9-7087-4a40-ada3-de30e3ab8345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Filters/ReaderFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFacultyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFacultyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPointOfIssueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPointOfIssueRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITeacherRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,28 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="291">
+              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -76,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,28 +78,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFacultyRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="102">
+              <caret line="6" column="41" selection-start-line="6" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/ReaderDTO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPointOfIssueRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/StudyGroupDTO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -117,8 +157,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,13 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/IssueMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OneTimeReaderMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/PenaltyMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/PointOfIssueMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/ReaderMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/ReadingRoomMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/StudyGroupMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/TeacherMapper.java" />
@@ -161,10 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Services/IDegreeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/AbstractMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java" />
         <option value="$USER_HOME$/Desktop/Y4EБA/БД/inserts.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b04d24b-e169-4b12-b32a-9a21c6477580/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java" />
@@ -174,10 +204,20 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Department.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Filters/ReaderFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITeacherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFacultyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPointOfIssueRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" />
       </list>
     </option>
@@ -222,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -270,6 +311,15 @@
               <item name="DBLibrary" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,14 +334,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590153706831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590489555112" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Y4EБA/БД/inserts.sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -321,10 +370,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Library">
     <configuration name="Library" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="gmo.library.Main" />
       <module name="DBLibrary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DBLibrary" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gmo.library.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,7 +412,9 @@
       <workItem from="1589874843087" duration="11381000" />
       <workItem from="1589898326032" duration="401000" />
       <workItem from="1589948527768" duration="100000" />
-      <workItem from="1590149229516" duration="3791000" />
+      <workItem from="1590149229516" duration="5428000" />
+      <workItem from="1590229369474" duration="3108000" />
+      <workItem from="1590478645115" duration="6082000" />
     </task>
     <task id="LOCAL-00001" summary="Some bug fixes">
       <created>1589789977614</created>
@@ -386,16 +444,24 @@
       <option name="project" value="LOCAL" />
       <updated>1589948589843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added database migration">
+      <created>1590153754849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590153754849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67809000" />
+    <option name="totallyTimeSpent" value="78636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20372751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,7 +471,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34185734" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34185734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +494,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.33097687" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.20886889" />
+      <window_info anchor="right" id="Database" order="8" weight="0.20886889" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
@@ -472,32 +538,10 @@
     <MESSAGE value="Resolved some problems with REST API, basic functionality works correctly" />
     <MESSAGE value="Bug with maven fixed" />
     <MESSAGE value="Some issues resolved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some issues resolved" />
+    <MESSAGE value="Added database migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database migration" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Faculty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/StudyGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom" />
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/PointOfIssue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -505,7 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/ReadingRoom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -527,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-rest-webmvc/3.2.6.RELEASE/spring-data-rest-webmvc-3.2.6.RELEASE.jar!/org/springframework/data/rest/webmvc/config/RepositoryRestMvcConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -549,7 +585,6 @@
       </provider>
     </entry>
     <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/student" />
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/onetimereader" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -571,10 +606,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/flyway/flyway-core/2.3.1/flyway-core-2.3.1.jar!/com/googlecode/flyway/core/Flyway.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/department" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/teacher" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/offence" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/onetimereader" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.7.RELEASE/spring-data-commons-2.2.7.RELEASE.jar!/org/springframework/data/querydsl/QuerydslPredicateExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -592,213 +676,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/flyway/flyway-core/2.3.1/flyway-core-2.3.1.jar!/com/googlecode/flyway/core/Flyway.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Filters/ReaderFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITeacherRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="291">
+          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/reader">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/teacher">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/offence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFacultyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPointOfIssueRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/readingroom">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
