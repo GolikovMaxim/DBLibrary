@@ -13,7 +13,13 @@ public interface IStudentRepository extends JpaRepository<Student, Long> {
     @Query("" +
             "select distinct r from Reader r " +
             "join Student s on s.id = r.id where " +
-            "(:fullName = '' or concat(r.firstName, r.secondName, r.lastName) like :fullName) " +
-            "and (:group = 0 or s.group.id = :group)")
-    Page<Student> findByParams(@Param("fullName") String fullName, @Param("group") Integer group, Pageable pageable);
+            "(:lastName = '' or :lastName = r.lastName) and " +
+            "(:firstName = '' or :firstName = r.firstName) and " +
+            "(:secondName = '' or :secondName = r.secondName) and " +
+            "(:poiid = 0 or :poiid = s.pointOfIssue.id) and " +
+            "(:faculty = 0 or :faculty = s.group.faculty.id) and " +
+            "(:group = 0 or s.group.id = :group)")
+    Page<Student> findByParams(@Param("lastName") String lastName, @Param("firstName") String firstName,
+                               @Param("secondName") String secondName, @Param("group") Integer group,
+                               @Param("poiid") Integer poiid, @Param("faculty") Integer faculty, Pageable pageable);
 }
