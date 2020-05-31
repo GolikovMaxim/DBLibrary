@@ -7,6 +7,5 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 @RepositoryRestResource(exported = false)
-@Transactional
 public interface IDegreeRepository extends JpaRepository<Degree, Long> {
 }

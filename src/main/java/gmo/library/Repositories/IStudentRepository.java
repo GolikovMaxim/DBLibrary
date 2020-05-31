@@ -1,18 +1,19 @@
 package gmo.library.Repositories;
 
 import gmo.library.Entities.Student;
-import gmo.library.Entities.StudyGroup;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import org.springframework.data.rest.core.config.Projection;
-import org.springframework.stereotype.Repository;
 
-@RepositoryRestResource
+@RepositoryRestResource(collectionResourceRel = "students", path = "students")
 public interface IStudentRepository extends JpaRepository<Student, Long> {
-    //@Query("select r from reader left outer join student s where s.id = r.id and concat(r.firstName, r.secondName, r.lastName) = :fullName and s.group = :group")
-    //Page<Student> findByGroup(StudyGroup group, Pageable pageable);
+    @Query("" +
+            "select distinct r from Reader r " +
+            "join Student s on s.id = r.id where " +
+            "(:fullName = '' or concat(r.firstName, r.secondName, r.lastName) like :fullName) " +
+            "and (:group = 0 or s.group.id = :group)")
+    Page<Student> findByParams(@Param("fullName") String fullName, @Param("group") Integer group, Pageable pageable);
 }

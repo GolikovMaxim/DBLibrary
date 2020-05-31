@@ -6,19 +6,12 @@ import gmo.library.Entities.*;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
-import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
-import org.springframework.core.convert.ConversionService;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
-import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
-import org.springframework.data.rest.webmvc.mapping.LinkCollector;
-import org.springframework.hateoas.Link;
-import org.springframework.hateoas.Links;
 import org.springframework.http.MediaType;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -27,7 +20,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 import java.sql.SQLException;
-import java.util.List;
 import java.util.Properties;
 
 @Configuration
@@ -41,6 +33,9 @@ public class AppConfiguration  implements RepositoryRestConfigurer {
         config.exposeIdsFor(Department.class);
         config.exposeIdsFor(Faculty.class);
         config.exposeIdsFor(Grade.class);
+        config.exposeIdsFor(PointOfIssue.class);
+        config.exposeIdsFor(ReadingRoom.class);
+        config.exposeIdsFor(Ticket.class);
     }
 
     @Bean
