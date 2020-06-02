@@ -10,5 +10,6 @@ public class StudyGroupDTO extends AbstractDTO<Long> {
         setEntityClass(StudyGroup.class);
     }
 
+    private int number;
     private FacultyDTO faculty;
 }

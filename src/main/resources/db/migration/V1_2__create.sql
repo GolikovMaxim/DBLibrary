@@ -40,8 +40,9 @@ CREATE TABLE Faculty
 
 CREATE TABLE StudyGroup
 (
-	ID integer PRIMARY KEY,
-    FacultyID integer,
+	ID integer PRIMARY KEY AUTO_INCREMENT,
+	Number integer,
+	FacultyID integer,
 	FOREIGN KEY (FacultyID) REFERENCES Faculty(ID)
 );
 

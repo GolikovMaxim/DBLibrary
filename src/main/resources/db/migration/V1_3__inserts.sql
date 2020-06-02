@@ -53,7 +53,7 @@ INSERT INTO Faculty (Name) VALUES
 ("Физический факультет"),
 ("Экономический факультет");
 
-INSERT INTO StudyGroup (ID, FacultyID) VALUES
+INSERT INTO StudyGroup (Number, FacultyID) VALUES
 (17503, 1),
 (18816, 2),
 (14451, 3),
@@ -66,16 +66,16 @@ INSERT INTO StudyGroup (ID, FacultyID) VALUES
 (19707, 9);
 
 INSERT INTO Student VALUES 
-(20, 17503, 8),
-(11, 17204, 5),
-(12, 18205, 2),
-(13, 18816, 7),
-(14, 14451, 3),
-(15, 16923, 4),
-(16, 17122, 10),
-(17, 18404, 2),
-(18, 16315, 5),
-(19, 19707, 1);
+(20, 1, 8),
+(11, 7, 5),
+(12, 8, 2),
+(13, 2, 7),
+(14, 3, 3),
+(15, 4, 4),
+(16, 5, 10),
+(17, 6, 2),
+(18, 9, 5),
+(19, 10, 1);
 
 INSERT INTO Department (FacultyID, Name) VALUES
 (1, "Кафедра минералогии и петрографии"),

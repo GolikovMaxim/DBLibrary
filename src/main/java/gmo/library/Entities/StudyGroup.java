@@ -8,6 +8,8 @@ import javax.persistence.*;
 @Entity
 @Getter @Setter
 public class StudyGroup extends AbstractEntity<Long> {
+    @Column(name = "Number")
+    private int number;
     @ManyToOne
     @JoinColumn(name = "facultyID")
     private Faculty faculty;

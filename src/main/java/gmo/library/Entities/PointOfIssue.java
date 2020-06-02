@@ -10,6 +10,6 @@ import javax.persistence.InheritanceType;
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @Getter @Setter
-public abstract class PointOfIssue extends AbstractEntity<Long> {
+public class PointOfIssue extends AbstractEntity<Long> {
 
 }

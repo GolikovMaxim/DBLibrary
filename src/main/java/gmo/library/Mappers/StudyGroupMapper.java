@@ -16,11 +16,13 @@ public class StudyGroupMapper extends AbstractMapper<StudyGroup, StudyGroupDTO, 
 
     @Override
     protected void mapEntityToDTO(StudyGroup entity, StudyGroupDTO DTO) {
+        DTO.setNumber(entity.getNumber());
         DTO.setFaculty(((FacultyMapper)mappers.get(Faculty.class)).toDTO(entity.getFaculty()));
     }
 
     @Override
     protected void mapDTOToEntity(StudyGroupDTO DTO, StudyGroup entity) {
+        entity.setNumber(DTO.getNumber());
         entity.setFaculty(((FacultyMapper)mappers.get(Faculty.class)).toEntity(DTO.getFaculty()));
     }
 }
