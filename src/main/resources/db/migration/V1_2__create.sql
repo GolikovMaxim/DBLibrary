@@ -158,3 +158,14 @@ CREATE TABLE Penalty
 	OffenceID int,
 	FOREIGN KEY (OffenceID) REFERENCES Offence(ID)
 );
+
+DELIMITER $$
+CREATE TRIGGER study_group_create_checker
+	BEFORE INSERT ON StudyGroup
+	FOR EACH ROW
+	BEGIN
+		IF (SELECT COUNT(*) FROM StudyGroup WHERE Number = NEW.Number) > 0 THEN
+			CALL GroupExist;
+		END IF;
+	END $$
+DELIMITER ;
