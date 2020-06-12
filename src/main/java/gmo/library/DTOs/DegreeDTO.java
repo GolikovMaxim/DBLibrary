@@ -11,4 +11,8 @@ public class DegreeDTO extends AbstractDTO<Long> {
     }
 
     private String name;
+
+    public interface DegreeProjection extends AbstractProjection<Long> {
+        String getName();
+    }
 }

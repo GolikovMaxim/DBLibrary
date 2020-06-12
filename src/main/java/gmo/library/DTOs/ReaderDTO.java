@@ -17,4 +17,11 @@ public abstract class ReaderDTO extends AbstractDTO<Long> {
     private String secondName;
     private String lastName;
     private LocalDate birthday;
+
+    public interface ReaderProjection extends AbstractProjection<Long> {
+        String getFirstName();
+        String getSecondName();
+        String getLastName();
+        LocalDate getBirthday();
+    }
 }

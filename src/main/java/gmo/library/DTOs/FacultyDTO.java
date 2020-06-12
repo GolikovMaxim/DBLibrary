@@ -11,4 +11,8 @@ public class FacultyDTO extends AbstractDTO<Long> {
     }
 
     private String name;
+
+    public interface FacultyProjection extends AbstractProjection<Long> {
+        String getName();
+    }
 }

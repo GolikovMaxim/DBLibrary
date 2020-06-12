@@ -17,4 +17,8 @@ public abstract class AbstractDTO<ID extends Serializable> implements Serializab
     public Class getEntityClass() {
         return entityClass;
     }
+
+    public interface AbstractProjection<ID> {
+        ID getId();
+    }
 }

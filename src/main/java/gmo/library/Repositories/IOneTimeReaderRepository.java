@@ -1,5 +1,6 @@
 package gmo.library.Repositories;
 
+import gmo.library.DTOs.OneTimeReaderDTO;
 import gmo.library.Entities.OneTimeReader;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -8,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource
+@RepositoryRestResource(excerptProjection = OneTimeReaderDTO.OneTimeReaderProjection.class)
 public interface IOneTimeReaderRepository extends JpaRepository<OneTimeReader, Long> {
     @Query("" +
             "select distinct r from Reader r " +

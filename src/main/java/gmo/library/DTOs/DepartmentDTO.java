@@ -12,4 +12,9 @@ public class DepartmentDTO extends AbstractDTO<Long> {
 
     private FacultyDTO faculty;
     private String name;
+
+    public interface DepartmentProjection extends AbstractProjection<Long> {
+        FacultyDTO.FacultyProjection getFaculty();
+        String getName();
+    }
 }

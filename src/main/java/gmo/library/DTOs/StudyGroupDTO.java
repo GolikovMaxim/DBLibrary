@@ -12,4 +12,9 @@ public class StudyGroupDTO extends AbstractDTO<Long> {
 
     private int number;
     private FacultyDTO faculty;
+
+    public interface StudyGroupProjection extends AbstractProjection<Long> {
+        int getNumber();
+        FacultyDTO.FacultyProjection getFaculty();
+    }
 }

@@ -14,4 +14,11 @@ public class TeacherDTO extends ReaderDTO {
     private DegreeDTO degree;
     private GradeDTO grade;
     private PointOfIssueDTO pointOfIssue;
+
+    public interface TeacherProjection extends ReaderProjection {
+        DepartmentDTO.DepartmentProjection getDepartment();
+        DegreeDTO.DegreeProjection getDegree();
+        GradeDTO.GradeProjection getGrade();
+        PointOfIssueDTO.PointOfIssueProjection getPointOfIssue();
+    }
 }

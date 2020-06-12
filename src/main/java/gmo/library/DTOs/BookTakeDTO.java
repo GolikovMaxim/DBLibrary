@@ -17,4 +17,12 @@ public class BookTakeDTO extends AbstractDTO<Long> {
     private PointOfIssueDTO pointOfIssue;
     private Date takeDate;
     private Date returnDate;
+
+    public interface BookTakeProjection extends AbstractProjection<Long> {
+        ReaderDTO.ReaderProjection getReader();
+        IssueDTO.IssueProjection getIssue();
+        PointOfIssueDTO.PointOfIssueProjection getPointOfIssue();
+        Date getTakeDate();
+        Date getReturnDate();
+    }
 }

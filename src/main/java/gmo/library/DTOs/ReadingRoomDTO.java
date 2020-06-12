@@ -6,4 +6,8 @@ public class ReadingRoomDTO extends PointOfIssueDTO {
     static {
         setEntityClass(ReadingRoom.class);
     }
+
+    public interface ReadingRoomProjection extends PointOfIssueProjection {
+
+    }
 }

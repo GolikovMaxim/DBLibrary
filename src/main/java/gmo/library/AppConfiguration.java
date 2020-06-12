@@ -6,7 +6,6 @@ import gmo.library.Entities.*;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
-import org.postgresql.ds.PGSimpleDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +23,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 @Configuration
-public class AppConfiguration  implements RepositoryRestConfigurer {
+public class AppConfiguration implements RepositoryRestConfigurer {
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
         config.setDefaultMediaType(MediaType.APPLICATION_JSON);
@@ -37,6 +36,10 @@ public class AppConfiguration  implements RepositoryRestConfigurer {
         config.exposeIdsFor(PointOfIssue.class);
         config.exposeIdsFor(ReadingRoom.class);
         config.exposeIdsFor(Ticket.class);
+        config.exposeIdsFor(Reader.class);
+        config.exposeIdsFor(Student.class);
+        config.exposeIdsFor(OneTimeReader.class);
+        config.exposeIdsFor(Teacher.class);
     }
 
     @Bean
@@ -44,6 +47,7 @@ public class AppConfiguration  implements RepositoryRestConfigurer {
         Flyway flyway = new Flyway();
         flyway.setDataSource(dataSource);
         flyway.setLocations("db/migration");
+        flyway.clean();
         flyway.migrate();
         return flyway;
     }

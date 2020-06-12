@@ -11,4 +11,8 @@ public class GradeDTO extends AbstractDTO<Long> {
     }
 
     private String name;
+
+    public interface GradeProjection extends AbstractProjection<Long> {
+        String getName();
+    }
 }

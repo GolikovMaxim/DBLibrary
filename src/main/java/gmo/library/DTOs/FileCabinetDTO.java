@@ -11,4 +11,8 @@ public class FileCabinetDTO extends AbstractDTO<Long> {
     }
 
     private PointOfIssueDTO pointOfIssue;
+
+    public interface FileCabinetProjection extends AbstractProjection<Long> {
+        PointOfIssueDTO.PointOfIssueProjection getPointOfIssue();
+    }
 }

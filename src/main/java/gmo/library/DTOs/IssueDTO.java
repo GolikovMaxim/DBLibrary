@@ -16,4 +16,11 @@ public class IssueDTO extends AbstractDTO<Long> {
     private int bookCount;
     private FileCabinetDTO fileCabinet;
     private Date receiptDate;
+
+    public interface IssueProjection extends AbstractProjection<Long> {
+        String getBookName();
+        int getBookCount();
+        FileCabinetDTO.FileCabinetProjection getFileCabinet();
+        Date getReceiptDate();
+    }
 }

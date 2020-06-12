@@ -16,4 +16,11 @@ public class PenaltyDTO extends AbstractDTO<Long> {
     private int cost;
     private Date payDate;
     private OffenceDTO offence;
+
+    public interface PenaltyProjection extends AbstractProjection<Long> {
+        Date getAccrualDate();
+        int getCost();
+        Date getPayDate();
+        OffenceDTO.OffenceProjection getOffence();
+    }
 }

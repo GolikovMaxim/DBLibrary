@@ -9,4 +9,8 @@ public abstract class PointOfIssueDTO extends AbstractDTO<Long> {
     static {
         setEntityClass(PointOfIssue.class);
     }
+
+    public interface PointOfIssueProjection extends AbstractProjection<Long> {
+
+    }
 }

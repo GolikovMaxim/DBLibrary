@@ -14,4 +14,9 @@ public class OneTimeReaderDTO extends ReaderDTO {
 
     private ReadingRoomDTO readingRoom;
     private Date takeDate;
+
+    public interface OneTimeReaderProjection extends ReaderProjection {
+        ReadingRoomDTO.ReadingRoomProjection getReadingRoom();
+        Date getTakeDate();
+    }
 }
