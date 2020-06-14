@@ -10,7 +10,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.config.Projection;
 
-@RepositoryRestResource(collectionResourceRel = "students", path = "students", excerptProjection = StudentDTO.StudentProjection.class)
+@RepositoryRestResource(excerptProjection = StudentDTO.StudentProjection.class)
 public interface IStudentRepository extends JpaRepository<Student, Long> {
     @Query("" +
             "select distinct r from Reader r " +
