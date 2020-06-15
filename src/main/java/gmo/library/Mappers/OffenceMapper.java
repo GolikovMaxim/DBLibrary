@@ -22,7 +22,6 @@ public class OffenceMapper extends AbstractMapper<Offence, OffenceDTO, Long> {
         DTO.setAccrualDate(entity.getAccrualDate());
         DTO.setBookTake((BookTakeDTO) mappers.get(BookTake.class).toDTO(entity.getBookTake()));
         DTO.setEndDate(entity.getEndDate());
-        DTO.setReader((ReaderDTO) mappers.get(entity.getReader().getClass()).toDTO(entity.getReader()));
     }
 
     @Override
@@ -30,6 +29,5 @@ public class OffenceMapper extends AbstractMapper<Offence, OffenceDTO, Long> {
         entity.setAccrualDate(DTO.getAccrualDate());
         entity.setBookTake((BookTake) mappers.get(BookTake.class).toEntity(DTO.getBookTake()));
         entity.setEndDate(DTO.getEndDate());
-        entity.setReader((Reader) mappers.get(DTO.getReader().getEntityClass()).toEntity(DTO.getReader()));
     }
 }

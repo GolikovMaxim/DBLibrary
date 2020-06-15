@@ -3,8 +3,10 @@ package gmo.library.Entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -14,6 +16,6 @@ public class OneTimeReader extends Reader {
     @ManyToOne
     @JoinColumn(name = "ReadingRoomID")
     private ReadingRoom readingRoom;
-    @Temporal(value= TemporalType.DATE)
-    private Date takeDate;
+    @Convert(converter = Jsr310JpaConverters.LocalDateConverter.class)
+    private LocalDate takeDate;
 }

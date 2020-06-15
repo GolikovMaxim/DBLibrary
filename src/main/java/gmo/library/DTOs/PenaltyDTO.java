@@ -4,6 +4,7 @@ import gmo.library.Entities.Penalty;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Getter @Setter
@@ -12,15 +13,15 @@ public class PenaltyDTO extends AbstractDTO<Long> {
         setEntityClass(Penalty.class);
     }
 
-    private Date accrualDate;
+    private LocalDate accrualDate;
     private int cost;
-    private Date payDate;
+    private LocalDate payDate;
     private OffenceDTO offence;
 
     public interface PenaltyProjection extends AbstractProjection<Long> {
-        Date getAccrualDate();
+        LocalDate getAccrualDate();
         int getCost();
-        Date getPayDate();
+        LocalDate getPayDate();
         OffenceDTO.OffenceProjection getOffence();
     }
 }

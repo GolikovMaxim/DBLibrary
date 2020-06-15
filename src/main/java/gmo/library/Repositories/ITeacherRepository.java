@@ -15,9 +15,9 @@ public interface ITeacherRepository extends JpaRepository<Teacher, Long> {
     @Query("" +
             "select distinct r from Reader r " +
             "join Teacher t on t.id = r.id where " +
-            "(:lastName = '' or :lastName = r.lastName) and " +
-            "(:firstName = '' or :firstName = r.firstName) and " +
-            "(:secondName = '' or :secondName = r.secondName) and " +
+            "(:lastName = '' or r.lastName like concat('%', :lastName, '%')) and " +
+            "(:firstName = '' or r.firstName like concat('%', :firstName, '%')) and " +
+            "(:secondName = '' or r.secondName like concat('%', :secondName, '%')) and " +
             "(:poiid = 0 or :poiid = t.pointOfIssue.id) and " +
             "(:department = 0 or :department = t.department.id) and " +
             "(:faculty = 0 or t.department.faculty.id = :faculty)")

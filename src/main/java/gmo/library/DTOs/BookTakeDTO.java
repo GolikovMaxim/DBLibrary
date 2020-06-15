@@ -4,6 +4,7 @@ import gmo.library.Entities.BookTake;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Getter @Setter
@@ -15,14 +16,14 @@ public class BookTakeDTO extends AbstractDTO<Long> {
     private ReaderDTO reader;
     private IssueDTO issue;
     private PointOfIssueDTO pointOfIssue;
-    private Date takeDate;
-    private Date returnDate;
+    private LocalDate takeDate;
+    private LocalDate returnDate;
 
     public interface BookTakeProjection extends AbstractProjection<Long> {
         ReaderDTO.ReaderProjection getReader();
         IssueDTO.IssueProjection getIssue();
         PointOfIssueDTO.PointOfIssueProjection getPointOfIssue();
-        Date getTakeDate();
-        Date getReturnDate();
+        LocalDate getTakeDate();
+        LocalDate getReturnDate();
     }
 }

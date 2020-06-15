@@ -14,9 +14,9 @@ public interface IOneTimeReaderRepository extends JpaRepository<OneTimeReader, L
     @Query("" +
             "select distinct r from Reader r " +
             "join OneTimeReader s on s.id = r.id where " +
-            "(:lastName = '' or :lastName = r.lastName) and " +
-            "(:firstName = '' or :firstName = r.firstName) and " +
-            "(:secondName = '' or :secondName = r.secondName) and " +
+            "(:lastName = '' or r.lastName like concat('%', :lastName, '%')) and " +
+            "(:firstName = '' or r.firstName like concat('%', :firstName, '%')) and " +
+            "(:secondName = '' or r.secondName like concat('%', :secondName, '%')) and " +
             "(:poiid = 0 or :poiid = s.readingRoom.id)")
     Page<OneTimeReader> findByParams(@Param("lastName") String lastName, @Param("firstName") String firstName,
                                @Param("secondName") String secondName, @Param("poiid") Integer poiid, Pageable pageable);

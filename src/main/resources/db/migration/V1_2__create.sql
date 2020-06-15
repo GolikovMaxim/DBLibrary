@@ -143,9 +143,7 @@ CREATE TABLE Offence
 	ID integer PRIMARY KEY AUTO_INCREMENT,
 	AccrualDate date NOT NULL,
 	EndDate date NOT NULL,
-	ReaderID int,
 	BookTakeID int,
-	FOREIGN KEY (ReaderID) REFERENCES Reader(ID),
 	FOREIGN KEY (BookTakeID) REFERENCES BookTake(ID)
 );
 
