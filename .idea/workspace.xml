@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d085db9-7087-4a40-ada3-de30e3ab8345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/BookTakeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/BookTakeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OffenceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OffenceDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OneTimeReaderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OneTimeReaderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/BookTake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/BookTake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IBookTakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IBookTakeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOffenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOffenceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOneTimeReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOneTimeReaderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" afterDir="false" />
     </list>
@@ -27,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DBLibrary$Library.ic" NAME="Library Coverage Results" MODIFIED="1592234378657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -49,41 +39,12 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="penalty: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="studygroup: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/BookTake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -93,10 +54,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IBookTakeRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="124" selection-start-line="14" selection-start-column="4" selection-end-line="24" selection-end-column="124" />
+            <state relative-caret-position="204">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,35 +98,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOffenceRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="19" column="106" selection-start-line="19" selection-start-column="106" selection-end-line="20" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="180" column="68" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="167" column="53" selection-start-line="167" selection-start-column="53" selection-end-line="167" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/BookTakeDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="548">
+              <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -142,24 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Mappers/BookTakeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="23" column="128" lean-forward="true" selection-start-line="23" selection-start-column="128" selection-end-line="24" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -212,13 +179,11 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFileCabinetRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReaderRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/ITicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IReadingRoomRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IStudyGroupRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/FileCabinet.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b04d24b-e169-4b12-b32a-9a21c6477580/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Issue.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/IssueDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IIssueRepository.java" />
@@ -231,14 +196,16 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OneTimeReaderDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OffenceDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/BookTakeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/BookTake.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOffenceRepository.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b04d24b-e169-4b12-b32a-9a21c6477580/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" />
       </list>
     </option>
   </component>
@@ -322,24 +289,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="DTOs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="Entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="Repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -369,7 +318,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591991767120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592235160876" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Y4EБA/БД/inserts.sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -456,7 +405,7 @@
       <workItem from="1592040277603" duration="7818000" />
       <workItem from="1592111775082" duration="3960000" />
       <workItem from="1592131819876" duration="7282000" />
-      <workItem from="1592199026458" duration="4112000" />
+      <workItem from="1592199026458" duration="13065000" />
     </task>
     <task id="LOCAL-00001" summary="Some bug fixes">
       <created>1589789977614</created>
@@ -542,54 +491,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592120085687</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added search for book takes and offences">
+      <created>1592213747481</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592213747481</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165690000" />
+    <option name="totallyTimeSpent" value="174643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2403599" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34185734" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32974428" />
-      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32839838" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32974428" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.2920592" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.25192803" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.20886889" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22750643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403599" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -614,6 +533,7 @@
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.2920592" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -624,6 +544,44 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" visible="true" weight="0.20886889" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403599" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34185734" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32974428" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32839838" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32974428" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.2920592" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.25192803" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.20886889" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,16 +600,10 @@
     <MESSAGE value="Added trigger for study group create checking" />
     <MESSAGE value="Removed controllers and added projections" />
     <MESSAGE value="Added search for issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added search for issues" />
+    <MESSAGE value="Added search for book takes and offences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added search for book takes and offences" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDegreeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -684,13 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="88" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -774,13 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="565" selection-start-line="565" selection-end-line="565" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b04d24b-e169-4b12-b32a-9a21c6477580/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -872,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -893,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IBookTakeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -910,24 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/penalty">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/offence">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -955,7 +862,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/BookTakeDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="15" selection-end-column="29" />
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -966,24 +873,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="167" column="53" selection-start-line="167" selection-start-column="53" selection-end-line="167" selection-end-column="53" />
+        <state relative-caret-position="170">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOffenceRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="19" column="106" selection-start-line="19" selection-start-column="106" selection-end-line="20" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b04d24b-e169-4b12-b32a-9a21c6477580/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/penalty">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="180" column="68" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
         </state>
       </provider>
     </entry>

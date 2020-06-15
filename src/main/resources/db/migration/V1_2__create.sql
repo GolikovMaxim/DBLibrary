@@ -158,6 +158,87 @@ CREATE TABLE Penalty
 );
 
 DELIMITER $$
+CREATE PROCEDURE bookTake_date_check(issue_id int, take_date date)
+BEGIN
+	IF((SELECT ReceiptDate FROM Issue WHERE Issue.ID = issue_id) > take_date) THEN
+		CALL WrongDate;
+	END IF;
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE PROCEDURE offence_date_check(book_take_id int, accrual_date date)
+BEGIN
+	IF((SELECT TakeDate FROM BookTake WHERE BookTake.ID = book_take_id) > accrual_date) THEN
+		CALL WrongDate;
+	END IF;
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE PROCEDURE penalty_date_check(offence_id int, accrual_date date)
+BEGIN
+	IF((SELECT AccrualDate FROM Offence WHERE Offence.ID = offence_id) > accrual_date) THEN
+		CALL WrongDate;
+	END IF;
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER bookTake_create_checker
+	BEFORE INSERT ON BookTake
+	FOR EACH ROW
+BEGIN
+	CALL bookTake_date_check(NEW.IssueID, NEW.TakeDate);
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER offence_create_checker
+	BEFORE INSERT ON Offence
+	FOR EACH ROW
+BEGIN
+	CALL offence_date_check(NEW.BookTakeID, NEW.AccrualDate);
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER penalty_create_checker
+	BEFORE INSERT ON Penalty
+	FOR EACH ROW
+BEGIN
+	CALL penalty_date_check(NEW.OffenceID, NEW.AccrualDate);
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER bookTake_update_checker
+	BEFORE UPDATE ON BookTake
+	FOR EACH ROW
+BEGIN
+	CALL bookTake_date_check(NEW.IssueID, NEW.TakeDate);
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER offence_update_checker
+	BEFORE UPDATE ON Offence
+	FOR EACH ROW
+BEGIN
+	CALL offence_date_check(NEW.BookTakeID, NEW.AccrualDate);
+END $$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER penalty_update_checker
+	BEFORE UPDATE ON Penalty
+	FOR EACH ROW
+BEGIN
+	CALL penalty_date_check(NEW.OffenceID, NEW.AccrualDate);
+END $$
+DELIMITER ;
+
+DELIMITER $$
 CREATE TRIGGER study_group_create_checker
 	BEFORE INSERT ON StudyGroup
 	FOR EACH ROW

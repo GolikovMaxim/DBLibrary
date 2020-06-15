@@ -47,7 +47,6 @@ public class AppConfiguration implements RepositoryRestConfigurer {
         Flyway flyway = new Flyway();
         flyway.setDataSource(dataSource);
         flyway.setLocations("db/migration");
-        flyway.clean();
         flyway.migrate();
         return flyway;
     }
