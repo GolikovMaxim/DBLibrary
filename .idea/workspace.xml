@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d085db9-7087-4a40-ada3-de30e3ab8345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,20 +38,17 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Offence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="102">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="68">
               <caret line="10" column="38" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,46 +83,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOffenceRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="106" selection-start-line="19" selection-start-column="106" selection-end-line="20" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="3060">
               <caret line="180" column="68" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
+            <state relative-caret-position="3162">
               <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OffenceDTO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="476">
+              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Controllers/StudyGroupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Controllers/DegreeController.java" />
@@ -167,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPointOfIssueRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/StudyGroupDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/StudentDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/DegreeDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/DepartmentDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/GradeDTO.java" />
@@ -195,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OneTimeReaderDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OffenceDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Mappers/BookTakeMapper.java" />
@@ -206,6 +220,9 @@
         <option value="$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IPenaltyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java" />
       </list>
     </option>
   </component>
@@ -289,6 +306,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="Repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -310,15 +336,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592235160876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592238765939" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Y4EБA/БД/inserts.sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -405,7 +431,8 @@
       <workItem from="1592040277603" duration="7818000" />
       <workItem from="1592111775082" duration="3960000" />
       <workItem from="1592131819876" duration="7282000" />
-      <workItem from="1592199026458" duration="13065000" />
+      <workItem from="1592199026458" duration="15412000" />
+      <workItem from="1592272600510" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="Some bug fixes">
       <created>1589789977614</created>
@@ -498,17 +525,23 @@
       <option name="project" value="LOCAL" />
       <updated>1592213747481</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added some triggers to validate dates of book takes, offences and penalties">
+      <created>1592235204234</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592235204234</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174643000" />
+    <option name="totallyTimeSpent" value="177432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403599" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,7 +566,6 @@
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.2920592" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -542,8 +574,9 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.25192803" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.20886889" />
+      <window_info anchor="right" id="Database" order="8" weight="0.20886889" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403599" />
@@ -601,30 +634,10 @@
     <MESSAGE value="Removed controllers and added projections" />
     <MESSAGE value="Added search for issues" />
     <MESSAGE value="Added search for book takes and offences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added search for book takes and offences" />
+    <MESSAGE value="Added some triggers to validate dates of book takes, offences and penalties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some triggers to validate dates of book takes, offences and penalties" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IDepartmentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFileCabinetRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IFacultyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IGradeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -643,16 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="27" column="87" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,16 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Repositories/IOneTimeReaderRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -810,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/OneTimeReaderDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -831,13 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/offence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/offence" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Mappers/OffenceMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -897,6 +877,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/penalty" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/pointofissue" />
+    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/teacher" />
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/DTOs/PenaltyDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -906,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Penalty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="102">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -916,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="68">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -924,24 +907,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3b04d24b-e169-4b12-b32a-9a21c6477580/schema/library/table/penalty">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_2__create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="3060">
           <caret line="180" column="68" selection-start-line="180" selection-start-column="68" selection-end-line="180" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1_3__inserts.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
+        <state relative-caret-position="3162">
           <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gmo/library/Entities/OneTimeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

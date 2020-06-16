@@ -1,6 +1,5 @@
 package gmo.library.Entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,7 +19,6 @@ public class Teacher extends Reader {
     @ManyToOne
     @JoinColumn(name = "GradeId")
     private Grade grade;
-    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "POIID")
     private PointOfIssue pointOfIssue;
